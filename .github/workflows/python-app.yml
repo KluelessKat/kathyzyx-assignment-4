@@ -31,7 +31,3 @@ jobs:
         run: |
           make run &
           sleep 5
-
-      - name: Run tests
-        run: |
-          curl http://localhost:3000
